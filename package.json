@@ -1,0 +1,14 @@
+{
+  "name": "graphql-demo",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start":"npx nodemon --ext js,graphql --ignore data/ server.js"
+  },
+  "dependencies": {
+    "apollo-server": "^3.9.0",
+    "fakebase": "^0.3.0",
+    "graphql": "^16.5.0",
+    "nodemon": "^2.0.19"
+  }
+}
